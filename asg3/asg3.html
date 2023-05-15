@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title> Virtual World </title>
+</head>
+
+<body onload="main()">
+<canvas id="asg3" width="600" height="600" style="border:1px solid #000000;">
+    Please use a browser that supports "canvas"
+</canvas>
+
+<br><br>
+<!-- Camera and Joint -->
+<label for="camera">Camera Angle:</label>
+<input type="range" id="camera" name="camera" min="0" max="360" value="0" class="slider"><br>
+<button type="button" id="animate_on">ON</button>
+<button type="button" id="animate_off">OFF</button>
+<br>
+
+<br><br>
+<h3>The Magic of Whiskers WebGL Code</h3>
+<p>Whiskers, a mischievous cat, paws at Parmi's WebGL code, triggering a magical transformation and animation.
+    Suddenly, red and blue fences come alive with extraordinary powers. Whiskers embarks on an adventure,
+    helping creatures and unraveling the secrets of this enchanted realm. With WebGL knowledge as his guide,
+    he discovers a way back, leaving behind a world forever changed by his feline magic.</p>
+
+
+<!-- Add our asg js file -->
+<script type=text/javascript src="Triangle.js"></script>
+<script type=text/javascript src="Point.js"></script>
+<script type=text/javascript src="Circle.js"></script>
+<script type=text/javascript src="Cube.js"></script>
+<script type=text/javascript src="CubePrism.js"></script>
+<script type=text/javascript src="asg3.js"></script>
+<script type=text/javascript src="createAll.js"></script>
+<script type=text/javascript src="Camera.js"></script>
+
+<script src="../lib/webgl-utils.js"></script>
+<script src="../lib/webgl-debug.js"></script>
+<script src="../lib/cuon-utils.js"></script>
+<script src="../lib/cuon-matrix-cse160.js"></script>
+
+</body>
+</html>
